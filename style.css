@@ -1,0 +1,134 @@
+.header {
+  padding-top: 0.1px;
+  padding-bottom: 0.1px;
+  text-align: center;
+  word-spacing: 50px;
+  background: #222;
+  color: white;
+  font-size: 15px;
+  font-family: 'Josefin Sans', sans-serif;  
+  width: 592px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+#card-holder {
+  display: flex; 
+  flex-wrap: wrap;  
+  }
+.card {  
+  width: 280px;
+  text-align: center;
+  }
+.card middle {
+  flex-grow: 1;
+}
+.nagybetűs {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 10px; 
+ }
+.centered {
+  position: absolute;
+  top: 22%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  font-family: 'Abril Fatface', cursive; 
+  color: #222;
+  light: bold;
+}    
+  .content {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  }
+img {
+  max-width: 100%;
+  height: auto;
+}
+blockquote::before {
+  content: '”';
+  }
+h2 {
+  background:  #222;
+  margin-left: 0px;
+  margin-right: 400px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  width: 270px;
+  height: 150px;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: 'Abril Fatface', cursive; 
+  color: white; 
+}
+#card-holder1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;  
+  align-content: space-around;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+#card-holder2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;  
+  align-content: space-around;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+#card-holder3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;  
+  align-content: space-around;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+.cím {
+ font-family: 'Josefin Sans', sans-serif;    
+  text-align: left;
+  color: #222;  
+  font-size: 10px;   
+  }
+.kisbetűs {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 10px; 
+ }
+.italic {
+  font-family: 'Merriweather', serif;
+  color: #222;
+  font-size: 10px; 
+  }
+h3 {
+  background:  #222;
+  margin-left: 0;
+  margin-right: 400px;
+  padding-top: 1px;
+  padding-bottom: 60px;
+  width: 270px;
+  height: 130px;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: 'Abril Fatface', cursive; 
+  color: white; 
+}
+h4 {
+  background:  #222;
+  margin-left: 0px;
+  margin-right: 400px;
+  padding-top: 1px;
+  padding-bottom: 70px;
+  width: 270px;
+  height: 200px;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: 'Abril Fatface', cursive; 
+  color: white; 
+}
